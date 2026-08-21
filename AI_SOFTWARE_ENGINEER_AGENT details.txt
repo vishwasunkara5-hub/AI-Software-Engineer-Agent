@@ -1,0 +1,42 @@
+AI_SOFTWARE_ENGINEER_AGENT
+
+Frontend: React + Vite
+Backend: Python + FastAPI
+AI layer: OpenAI API
+Code analysis: Python code analyzer
+API communication: Frontend → FastAPI backend → AI service
+Environment: Python 3.11 virtual environment
+UI: Code input + Review Code button + result display
+
+BACKEND TERMINAL COMMANDS :
+
+python -m uvicorn backend.main:app --host 127.0.0.1 --port 8000
+http://127.0.0.1:8000/   (IN CHROME)
+http://127.0.0.1:8000/health    (IN CHROME)
+TERMINAL 1
+Backend
+127.0.0.1:8000
+
+FRONTEND:
+
+cd frontend
+node --version
+npm --version
+npm run dev
+VITE ready
+Local: http://localhost:5173/ (OPEN WEBSITE)
+def add(a, b):
+    return a + b
+
+print(add(5, 10))    (TEST WITH THIS CODE)
+CLICK REVIEW CODE
+THEN:
+Analysis Result
+Status: Success
+Code analyzed successfully.
+Lines: 4
+Suggestions
+Debug print statement detected.
+
+
+FINALLY PROJECT IS DONE WITH EXECUTION
